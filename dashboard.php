@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-if(isset($_SESSION['login'])) {
-	header("Location: dashboard.php");
+if(!isset($_SESSION['login'])) {
+	header("Location: index.php");
 	exit();
 }
 ?>
@@ -18,20 +18,18 @@ if(isset($_SESSION['login'])) {
     <div class="container">
     	<div class="row">
     		<div class="col-md-6">
-    			<div id="tag">
-    				Are you ready to make
-    				<span>lifetime memories ?</span>
-    			</div>
-    			<div id="tag2">
-    				Plan. Pack. Go!
-    			</div>
-    			<div id="sociallogins">
-    				<button id="glogin" type="button">login with google</button>
-    				<div class="fb-login-button" data-scope="public_profile,email" onlogin="checkLoginState();"></div>
-    			</div>
+    			
     		</div>
     		<div class="col-md-6">
-    			
+    			<?php
+    			if(isset($_SESSION['name'])) {
+    				echo $_SESSION['name'];
+    				echo "<br>";
+    				echo $_SESSION['email'];
+    				echo "<br>";
+    				echo "<img src='".$_SESSION['picture']['url']."'>";
+    			}
+    			?>
     		</div>
     	</div>
     </div>    

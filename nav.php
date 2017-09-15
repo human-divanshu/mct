@@ -14,8 +14,18 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#tripspane">Search Trips</a></li>
+<?php
+  if(!isset($_SESSION['login'])) {
+?>        
         <li><a href="login.php">Login</a></li>
         <li><a href="register.php">Signup</a></li>
+<?php
+  } else {
+?>
+        <li><a href="logout.php">Logout</a></li>
+<?php
+}
+?>        
       </ul>
     </div>
   </div>
