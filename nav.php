@@ -13,9 +13,9 @@
       <ul class="nav navbar-nav">
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#tripspane">Search Trips</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="register.php">Signup</a></li>
       </ul>
     </div>
   </div>
