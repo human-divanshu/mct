@@ -1,0 +1,29 @@
+body{
+	padding-top:70px;
+}
+.navbar-default {
+	background-color: white;
+	border-color: white;
+	box-shadow: none;
+}
+.navbar-default .navbar-brand {
+	color: #888;
+	font-size: 15px;
+}
+.navbar-default .navbar-brand:hover{
+	color: black;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 13px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: black;
+}
+.logofont{
+	font-family: 'Baloo Tammudu', cursive;
+	font-size:30px;
+	color:#ff6c00;
+}
+.logoblue{
+	color:#1274c0;
+}
