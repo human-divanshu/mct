@@ -22,13 +22,12 @@ if(!isset($_SESSION['login'])) {
     		</div>
     		<div class="col-md-6">
     			<?php
-    			if(isset($_SESSION['name'])) {
-    				echo $_SESSION['name'];
-    				echo "<br>";
     				echo $_SESSION['email'];
     				echo "<br>";
+                    echo $_SESSION['name'];
+                    echo "<br>";
     				echo "<img src='".$_SESSION['picture']['url']."'>";
-    			}
+    			
     			?>
     		</div>
     	</div>

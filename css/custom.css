@@ -1,32 +1,46 @@
-body{
-	padding-top:70px;
+body {
+	background-image:url('../img/bg4.jpg');
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+*{
+	font-family: 'Roboto', sans-serif;
 }
 .navbar-default {
-	background-color: white;
-	border-color: white;
+	background-color: transparent;
+	border-color: transparent;
 	box-shadow: none;
-}
-.navbar-default .navbar-brand {
-	color: #888;
-	font-size: 15px;
 }
 .navbar-default .navbar-brand:hover{
 	color: black;
 }
 .navbar-default .navbar-nav > li > a {
 	font-size: 13px;
+	color:#1274c0;
+	font-weight: bold;
 }
 .navbar-default .navbar-nav > li > a:hover {
-	color: black;
+	color: #ff6c00;
 }
 .logofont{
 	font-family: 'Baloo Tammudu', cursive;
-	font-size:30px;
+	font-size:28px;
 	color:#ff6c00;
 }
 .logoblue{
 	color:#1274c0;
+	font-family: 'Baloo Tammudu', cursive;
 }
-#tag{
-	font-size: 30px;
+#tag {
+	font-size: 16px;
+	font-weight: bold;
+}
+#tag span{
+	font-size: 42px;
+	display: block;
+	font-family: 'Baloo Tammudu', cursive;
+}
+#tag2 {
+	font-size: 16px;
+	font-weight: bold;
 }

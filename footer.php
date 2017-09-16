@@ -2,6 +2,7 @@
 	<div class="container">
 		<div class="row" style="padding-top:40px;">
 		    <div class="col-md-12 text-center">
+		    	<br><br><br><br><br><br>
 				<p>copyright &copy; <a style="text-decoration:none;" href="#"><span style="font-size:18px;" class="logofont">my<span class="logoblue">campus</span>trips</span></a></p>
 		    </div>
 		</div>
