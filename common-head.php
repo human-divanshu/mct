@@ -4,4 +4,4 @@
 <script src="js/respond.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="css/common.css">

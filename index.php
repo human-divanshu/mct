@@ -10,7 +10,8 @@ if(isset($_SESSION['login'])) {
 <html>
 <head>
     <?php require_once("common-head.php"); ?>
-    <title>Website Name</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>MyCampusTrips.com - #1 Campus Trips Organizers</title>
     <script type="text/javascript" src="fblogin/fb.js"></script>
 </head>
 <body>
@@ -18,7 +19,7 @@ if(isset($_SESSION['login'])) {
     <div class="container">
     	<div class="row">
     		<div class="col-md-6">
-    			<div class="visible-lg visible-md" style="margin-top:170px;">&nbsp;</div>
+    			<div class="visible-lg visible-md" style="margin-top:150px;">&nbsp;</div>
     			<div id="tag">
     				Are you ready to make
     				<span>lifetime memories ?</span>

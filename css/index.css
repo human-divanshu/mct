@@ -1,0 +1,18 @@
+body {
+	background-image:url('../img/bg4.jpg');
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+#tag {
+	font-size: 16px;
+	font-weight: bold;
+}
+#tag span{
+	font-size: 42px;
+	display: block;
+	font-family: 'Baloo Tammudu', cursive;
+}
+#tag2 {
+	font-size: 16px;
+	font-weight: bold;
+}
