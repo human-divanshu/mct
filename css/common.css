@@ -17,6 +17,28 @@
 .navbar-default .navbar-nav > li > a:hover {
 	color: #ff6c00;
 }
+.navbar-default .navbar-toggle {
+	background-color:#ff6c00;
+	border-color: #ff6c00;
+}
+.navbar-default .navbar-toggle:hover {
+	background-color:#ff6c00;
+}
+.navbar-default .navbar-toggle:focus {
+	background-color:#ff6c00;
+}
+.navbar-default .navbar-collapse {
+	border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-collapse .collapse {
+	border-color: transparent;
+}
+#navbar ul {
+	background-color: rgba(255,255,255,0.7);
+}
 .logofont{
 	font-family: 'Baloo Tammudu', cursive;
 	font-size:28px;

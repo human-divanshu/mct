@@ -11,8 +11,6 @@
      <a class="navbar-brand" href="#"><span class="logofont">my<span class="logoblue">campus</span>trips</span></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-      </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#tripspane">Search Trips</a></li>
 <?php
