@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('../img/bg4.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+
+.middle {
+    font-family: 'Permanent Marker', cursive;
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+#demo{
+    background-color: #fff;
+    opacity: 0.6;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+.logofont{
+    font-family: 'Baloo Tammudu', cursive;
+    font-size:35px;
+    color:#ff6c00;
+}
+.logoblue{
+    color:#1274c0;
+    font-family: 'Baloo Tammudu', cursive;
+}
